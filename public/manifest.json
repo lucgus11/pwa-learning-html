@@ -1,0 +1,21 @@
+{
+  "name": "Apprendre le HTML",
+  "short_name": "HTML",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4f4f9",
+  "theme_color": "#3498db",
+  "description": "Apprends le HTML avec des exercices et des leçons",
+  "icons": [
+    {
+      "src": "/assets/images/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/images/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
