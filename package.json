@@ -1,0 +1,19 @@
+{
+  "name": "pwa-learning-html",
+  "version": "1.0.0",
+  "description": "Une PWA pour apprendre le HTML",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server -p 3000",
+    "build": "npm run build:css && npm run build:js",
+    "build:css": "cat public/assets/css/styles.css > dist/styles.css",
+    "build:js": "cat public/assets/js/app.js public/assets/js/main.js > dist/main.js"
+  },
+  "keywords": ["html", "pwa", "learn"],
+  "author": "Lucas Gustin",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "http-server": "^0.12.3"
+  }
+}
