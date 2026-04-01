@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#3498db">
+    <meta name="description" content="Apprends le HTML avec des exercices et des leçons">
+    <title>Apprendre le HTML</title>
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Apprendre le HTML</h1>
+    </header>
+    <main class="container">
+        <section id="lessons">
+            <h2>Leçons</h2>
+            <div class="lesson" id="lesson-1">
+                <h3>Introduction au HTML</h3>
+                <p>Le HTML est le langage de balisage standard pour créer des pages web.</p>
+                <button onclick="startExercise('lesson-1')">Commencer l'exercice</button>
+            </div>
+        </section>
+        <section id="exercises">
+            <h2>Exercices</h2>
+            <div class="exercise" id="exercise-1">
+                <h3>Exercice 1: Structure de base</h3>
+                <p>Crée une structure HTML de base avec les balises &lt;!DOCTYPE&gt;, &lt;html&gt;, &lt;head&gt;, et &lt;body&gt;.</p>
+                <textarea id="code-editor" rows="10" cols="50"></textarea>
+                <button onclick="checkExercise('exercise-1')">Vérifier</button>
+                <div id="result"></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Apprendre le HTML</p>
+    </footer>
+    <script src="/assets/js/app.js"></script>
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>
